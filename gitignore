@@ -1,0 +1,8 @@
+import 'package:firebase_auth/firebase_auth.dart';
+
+Future<void> registerUser() async {
+  await FirebaseAuth.instance.createUserWithEmailAndPassword(
+    email: 'user@example.com',
+    password: 'password123',
+  );
+}

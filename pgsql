@@ -1,0 +1,3 @@
+# Firebase configuration
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
